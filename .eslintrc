@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": [1, 125, 4],
+    "no-param-reassign": "off",
+    "radix": "off",
+    "no-underscore-dangle": "off"
+  }
+}
