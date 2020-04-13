@@ -1,7 +1,7 @@
 {
-  "name": "segbird",
+  "name": "@fidtech-sa/segbird",
   "version": "1.0.0",
-  "description": "**Introduction**",
+  "description": "A simple tool that abstracts http requests between microservices into simple events using a publish-subscribe scheme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,12 @@
     "segglass",
     "fidtech"
   ],
-  "author": "Fidtech",
+  "author": {
+    "name" : "Nahuel Vazquez",
+    "email" : "nahuel.vazquez@fidtech.net"
+  },
   "license": "ISC",
+  "private": false,
   "dependencies": {
     "debug": "^4.1.1",
     "jsonwebtoken": "^8.5.1",
@@ -27,5 +31,13 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.7.0"
+  },
+  "homepage": "https://github.com/fidtech-dev/segbird#readme",
+  "bugs": {
+    "url": "https://github.com/fidtech-dev/segbird/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidtech-dev/segbird.git"
   }
 }
